@@ -16,10 +16,10 @@ The simulation models **autonomy**, **coordination**, and **collaborative proble
 
 | Name | Role | Strengths | Areas of Opportunity |
 |------|------|------------|----------------------|
-| Esteban Muñoz | Project Leader / MAS Architect | Coordination, system modeling, and agent interaction logic | Improve task delegation |
-| [Name 2] | Developer / Environment Modeler | Implementation of grid environment and agent behaviors | Needs to strengthen documentation |
-| [Name 3] | Research & Data Analyst | Crop anomaly research, parameter calibration | Improve confidence using simulation libraries |
-| [Name 4] | Testing & QA | Scenario testing, consistency checks | Enhance GitHub usage and commit discipline |
+| Joaquin Hiroki | Project Leader / MAS Architect | Coordination, system modeling, and agent interaction logic | Improve task delegation |
+| Fernanda Jimenez | Developer / Environment Modeler | Implementation of grid environment and agent behaviors | Needs to strengthen documentation |
+| Juan Pablo Buenrostro | Research & Data Analyst | Crop anomaly research, parameter calibration | Improve confidence using simulation libraries |
+| Joaquin Hiroki | Testing & QA | Scenario testing, consistency checks | Enhance GitHub usage and commit discipline |
 
 ### Team Expectations
 - Build a working MAS simulation for anomaly detection and management in tomato crops.  
@@ -133,10 +133,10 @@ Chosen option: **Digital Environment → Simulated Greenhouse**
 | Task | Responsible | Date | Effort | Status |
 |------|--------------|------|---------|--------|
 | Define context and crop anomalies | All | Week 1 | 3h | ✅ Completed |
-| Design greenhouse grid and path model | [Name 2] | Week 1 | 4h | 🔄 In progress |
-| Define agents and interaction protocol | Esteban & [Name 3] | Week 1 | 3h | ✅ Completed |
-| Implement simulation skeleton | [Name 2] | Week 2 | 5h | ⏳ Pending |
-| Prepare Review 1 document | [Name 3] | Week 1 | 3h | ✅ Completed |
+| Design greenhouse grid and path model | Juan Pablo | Week 1 | 4h | 🔄 In progress |
+| Define agents and interaction protocol | Esteban & Fernanda | Week 1 | 3h | ✅ Completed |
+| Implement simulation skeleton | Joaquin | Week 2 | 5h | ⏳ Pending |
+| Prepare Review 1 document | Joaquin | Week 1 | 3h | ✅ Completed |
 | Tag repository as REVISION 1 | All | Week 1 | 1h | ⏳ Pending |
 
 ---
