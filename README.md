@@ -1,4 +1,4 @@
-# 🍅 Detection and Management of Vegetation with Anomalies – Multi-Agent System (Traffic Jam)
+# 🍅 Detection and Management of Vegetation with Anomalies – Multi-Agent System (Traffic Jam).
 
 ## 📘 Project Overview
 This project develops a **Multi-Agent System (MAS)** for the **detection and management of anomalies in tomato crops** within a **simulated greenhouse** located in Jalisco, Mexico.
