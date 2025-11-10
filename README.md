@@ -88,10 +88,10 @@ It demonstrates **agent autonomy**, **coordination**, and **interaction protocol
 | Task | Responsible | Date | Estimated Effort | Status |
 |------|--------------|------|------------------|--------|
 | Define project challenge and scope | All | Week 1 | 4h | ✅ Completed |
-| Identify and describe agents | Esteban & [Name 3] | Week 1 | 3h | ✅ Completed |
-| Create GitHub repo and communication group | [Name 2] | Week 1 | 2h | ✅ Completed |
-| Draft agent interaction diagram (AIP) | [Name 4] | Week 2 | 4h | 🔄 In Progress |
-| Prepare formal Review 1 document | [Name 3] | Week 1 | 3h | ✅ Completed |
+| Identify and describe agents | Esteban & Joaquin | Week 1 | 3h | ✅ Completed |
+| Create GitHub repo and communication group | Fernanda | Week 1 | 2h | ✅ Completed |
+| Draft agent interaction diagram (AIP) | Fernanda | Week 2 | 4h | 🔄 In Progress |
+| Prepare formal Review 1 document | Juan Pablo | Week 1 | 3h | ✅ Completed |
 | Tag and submit repository as REVISION 1 | All | Week 1 | 1h | ⏳ Pending |
 
 ---
