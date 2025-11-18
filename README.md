@@ -75,7 +75,7 @@ Design and simulate a **Multi-Agent System (MAS)** capable of **detecting and ma
 Chosen option: **Digital Environment → Simulated Greenhouse**
 
 ### Representation Model
-- The greenhouse is represented as a **2D grid graph**, where each node corresponds to a **tomato plant cluster**.  
+- The greenhouse is represented as a **3D grid graph**, where each node corresponds to a **tomato plant cluster**.  
 - Each node has states: *Healthy*, *Anomalous*, or *Treated*.  
 - Agents navigate through graph edges using efficient pathfinding.
 
