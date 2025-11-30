@@ -1,0 +1,90 @@
+# 🌱 Detection and Management of Vegetation with Anomalies  
+## Multi-Agent System – 
+
+---
+
+ Project Overview
+
+This project develops a **Multi-Agent System (MAS)** for the detection and management of anomalies in **tomato crops** inside a **simulated greenhouse**
+
+Autonomous agents collaborate to:
+
+- Detect early signs of anomalies (diseases, nutrient deficiencies, pests, stress).
+- Analyze and classify anomalies according to severity.
+- Decide and dispatch corrective actions such as treatment or inspection.
+- Coordinate their navigation to avoid **traffic jams** inside the greenhouse.
+
+The simulation focuses on **autonomy, coordination, and collaborative problem solving** to support better crop management.
+
+---
+
+##  Team Members
+
+| Name              | Role / Focus                                      |
+|-------------------|---------------------------------------------------|
+| Fernanda Jimenez         | Environment modeling, Unity integration, diagrams |
+| Esteban Muñoz            | MAS logic, BDI modeling                           |
+| Juan Pablo Buenrostro    | Unity agents, movement and visualization          |
+| Joaquin Hiroki Campos    | Metrics, logging, documentation                   |
+
+---
+
+## System Architecture 
+
+The system is composed of four main agents:
+
+- **Detection Agent** – Reactive agent that scans plants and detects anomalies.
+- **Analysis Agent** – Deliberative BDI agent that validates and classifies anomalies.
+- **Decision Agent** – Hybrid agent that integrates information and selects actions.
+- **Action Agent** – Reactive executor (robots/drones) that performs physical actions in Unity.
+
+✅ 1. Pending Tasks (Upcoming Work)
+
+These activities are planned for completion after Review 1.
+
+Activity	Responsible	Planned Date	Estimated Effort
+Implement agent state machines	Fernanda &	Nov 27–29	6–10 hrs
+Integrate MAS logic with Unity behaviours	Fernanda & Esteban	Nov 28-29	10–15 hrs
+UI visualization (anomalies, agent states)	Team	Nov 22-29 11–12	4–6 hrs
+Simulation 	Juan Pablo & Esteban	Nov 22–29	5–8 hrs
+Final video & documentation	Entire Team	Dec 13–14	6–10 hrs
+📊 2. Completed Tasks (Review 1)
+
+Below are the tasks completed during the first review cycle, including estimated effort, actual time invested, and any deviation.
+
+Activity	Estimated Effort	Actual Time	Deviation	Notes
+MAS Architecture Definition	6–8 hrs	10 hrs	+2 hrs	Extra time spent refining hybrid BDI model.
+Unity Base Greenhouse Environment	4–6 hrs	4 hrs	0	Completed smoothly as planned.
+Agents (Drone & Ground) Movement	3–4 hrs	5 hrs	+1 hr	Rotation smoothing and path testing required.
+AUML Interaction Diagrams	5–7 hrs	6 hrs	0	MAS flow aligned well with diagram logic.
+Global Class Diagram	6–8 hrs	9 hrs	+1 hr	Rework needed to improve environment modeling.
+Light Pulse Scanner (Detection FX)	1–2 hrs	1 hr	0	Straightforward Unity implementation.
+Waypoint Navigation System	4–8 hrs	5 hrs	0	Included early tests for traffic-jam avoidance.
+💡 3. Lessons Learned (Team Reflections)
+1️⃣ Early Modeling Prevents Major Rework
+
+Creating the MAS architecture early guided Unity development and avoided costly structural refactors.
+
+2️⃣ Agent Communication Was More Complex Than Expected
+
+Designing the Detection → Analysis → Decision → Action flow required precise responsibility mapping.
+
+3️⃣ Unity & MAS Logic Progress at Different Speeds
+
+Unity visuals were fast to create, but integrating MAS reasoning and data flow demanded close coordination.
+
+4️⃣ Time Estimates Improve With Practice
+
+Initial tasks involving BDI modeling and anomaly mapping were underestimated, but later estimates became more accurate.
+
+5️⃣ Diagrams Greatly Reduce Miscommunication
+
+AUML sequence diagrams and state machines helped the team fully understand each agent’s behavior and interactions.
+
+6️⃣ Collaboration Was Essential
+
+Distributing work across diagrams, programming, modeling, and Unity allowed steady progress despite varying workloads.
+
+---
+
+
