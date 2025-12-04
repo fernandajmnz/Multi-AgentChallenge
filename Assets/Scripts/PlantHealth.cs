@@ -52,6 +52,7 @@ public class PlantHealth : MonoBehaviour
     public void Cure()
     {
         state = PlantState.Treated;
+        hasHiddenInfection = false; // Reset hidden infection
         ApplyColor();
 
         // Después de unos segundos vuelve a verde
@@ -98,6 +99,23 @@ public class PlantHealth : MonoBehaviour
 
         // Se vuelve roja
         SetState(PlantState.Infected);
+    }
+
+    // --- NUEVO: Lógica de infección oculta ---
+    public bool hasHiddenInfection = false;
+
+    public void InfectHidden()
+    {
+        hasHiddenInfection = true;
+        // No cambiamos el color visualmente, sigue Healthy (verde)
+    }
+
+    public void RevealInfection()
+    {
+        if (hasHiddenInfection)
+        {
+            SetState(PlantState.Infected); // Cambia a rojo inmediatamente
+        }
     }
 
     // 🎨 Aplica color a TODAS las partes del prefab

@@ -15,7 +15,7 @@ public class InfectRandomPlants : MonoBehaviour
         {
             if (Random.value < infectionRate)
             {
-                plant.SetState(PlantState.Infected);  // rojo
+                plant.InfectHidden();  // infectado pero oculto (verde)
                 infectedCount++;
             }
         }
